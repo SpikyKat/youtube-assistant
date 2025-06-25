@@ -1,0 +1,17 @@
+# Ignore Python cache and virtual envs
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+env/
+
+# Ignore environment secrets
+.env
+
+# Ignore temporary or generated files
+*.xlsx
+*.csv
+*.log
+*.DS_Store
+*.bat
