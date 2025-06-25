@@ -19,18 +19,31 @@ A powerful Streamlit-based application to assist YouTubers and content creators 
 
  youtube_assistant_ai/
 ├── assets/ # Static assets (optional)
+
 ├── modules/ # Contains all feature modules
+
 │ ├── title_generator.py
+
 │ ├── description_generator.py
+
 │ ├── tag_suggester.py
+
 │ ├── script_generator.py
+
 │ └── channel_tracker.py
+
 ├── utils/ # Utility functions (optional)
+
 ├── .env # Environment variables (NOT committed)
+
 ├── main.py # Python core logic (can be renamed to ytapp.py)
+
 ├── ytapp.py # Streamlit app entrypoint
+
 ├── requirements.txt # Python dependencies
+
 ├── README.md # Project overview
+
 └── launch_ytapp.bat # Windows batch file to run the app
 
 
@@ -68,6 +81,8 @@ Make sure to set these in .env:
 Variable	                      Purpose
 YOUTUBE_API_KEY	                Access YouTube Data API v3
 GROQ_API_KEY	                  Use LLaMA3-70B for LLM insights
+
+**📣 Credits Created by**: https://github.com/SpikyKat
 
 **📄 License**
 MIT License © 2025 Rahul Ghantasala
